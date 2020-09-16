@@ -16,7 +16,7 @@ class Transfer
   end 
   
   def execute_transaction(amount)
-    self.balance = 950
+    self.deposit.amount 
     
   end 
   
