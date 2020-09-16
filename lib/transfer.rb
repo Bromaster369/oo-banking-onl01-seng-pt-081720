@@ -15,8 +15,8 @@ class Transfer
     sender.valid? && receiver.valid?
   end 
   
-  def execute_transaction(amount)
-    self.deposit.amount 
+  def execute_transaction
+    
     
   end 
   
