@@ -21,6 +21,13 @@ class Transfer
 
   end 
   
+  
+  def reverse_transfer 
+  
+  
+    
+  end 
+  
   def reject_transfer
     if sender.balance == 0 
     puts "Transaction rejected. Please check your account balance."
