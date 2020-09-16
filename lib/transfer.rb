@@ -19,7 +19,7 @@ class Transfer
     
     
   else 
-    sender.
+    sender.balance == 0 
     puts "Transaction rejected. Please check your account balance."
   end 
   
